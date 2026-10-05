@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>City Explorer</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <h1>city explorer</h1>
+        <nav class="menu">
+            <a href="#destinatii">Destinații</a>
+            <a href="#planifica">Planifică</a>
+            <a href="#recomandari">Recomandări</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="destinatii">
+            <h2>Destinații</h2>
+            <div class="cards">
+                <article class="card">
+                    <h3>Ploiesti</h3>
+                    <p><strong>România</strong></p>
+                    <p>Cel mai tare oras, cu cea mai buna echipa de fotbal FC Petrolul Ploiesti.</p>
+                    <p>Durată recomandată: 7 zile</p>
+                </article>
+                
+                <article class="card featured">
+                    <h3>Osaka</h3>
+                    <p><strong>Japonia</strong></p>
+                    <p>Un oras cu o istorie deosebita.</p>
+                    <p>Durată recomandată: 7 zile</p>
+                </article>
+
+                <article class="card">
+                    <h3>Peso da Regua</h3>
+                    <p><strong>Portugalia</strong></p>
+                    <p>Un oras superb, care merita vizitat.</p>
+                    <p>Durată recomandată: 5 zile</p>
+                </article>
+
+                <article class="card">
+                    <h3>Porto</h3>
+                    <p><strong>Portugalia</strong></p>
+                    <p>Cele mai bune vinuri si preparate din regiune.</p>
+                    <p>Durată recomandată: 6 zile</p>
+                </article>
+
+                <article class="card">
+                    <h3>Bucuresti</h3>
+                    <p><strong>România</strong></p>
+                    <p>Un oras captivant, energic, zgomotos, cu arhitectura frumoasa.</p>
+                    <p>Durată recomandată: 7 zile</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="planifica">
+            <h2>Planifică ți următoarea excursie</h2>
+            <form class="plan-form">
+                <div class="form-group">
+                    <label for="name">Nume</label>
+                    <input id="name" name="name" type="text">
+                </div>
+                
+                <div class="form-group">
+                    <label for="destination">Destinație</label>
+                    <select id="destination" name="destination">
+                        <option value="">Alege un oraș...</option>
+                        <option value="Ploiesti">Ploiesti</option>
+                        <option value="Osaka">Osaka</option>
+                        <option value="Peso da Regua">Peso da Regua</option>
+                        <option value="Porto">Porto</option>
+                        <option value="Bucuresti">Bucuresti</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="days">Număr de zile</label>
+                    <input id="days" name="days" type="number">
+                </div>
+                
+                <button type="submit">Planifică excursia!</button>
+            </form>
+        </section>
+
+        <section id="recomandari">
+            <h2>Recomandări</h2>
+            <ul>
+                <li>Fii pregătit pentru condițiile meteo imprevizibile!</li>
+                <li>Salvează-ți hărțile pe telefon pentru momentele când nu ai semnal!</li>
+                <li>Păstrează o copie a actelor importante pe email!</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        Cirjan Liliana-Miruna - 2026
+    </footer>
+</body>
+</html>
